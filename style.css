@@ -27,3 +27,41 @@ nav{
     align-items: center;
 }
 
+.main{
+    background-image: url(./photo/image.png);
+    max-width: 1200px;
+    margin: auto;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;flex-direction: column;
+    gap: 40px;
+    background-size: cover;       
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 700px;
+}
+.main h1{
+    font-size: 50px;
+}
+.btn{
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 25px;
+    font-size: 17px;
+}
+.btn-1{
+    background-color: #FB8500;
+    color: white;
+}
+.btm-2{
+    color: #FB8500;
+    background-color: white;
+}
+.main img{
+    position: absolute;
+    margin-top: 630px;
+}
+
