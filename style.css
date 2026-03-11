@@ -170,3 +170,47 @@ justify-content:center;
 font-weight:bold;
 }
 
+.advantages{
+background:url(./photo/bf8a40060807c258cf8e59f06ca2bac424b8729c.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+color:white;
+}
+.advantages h5{
+    color: #219EBC;
+    margin-bottom: 30px;
+}
+.advantages h2{
+    font-size: 40px;
+}
+
+.adv-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:40px;
+margin-top:50px;
+}
+
+.adv{
+background:rgba(0,0,0,0.4);
+padding:30px;
+border-radius:10px;
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+.icon{
+width:50px;
+height:50px;
+border-radius:50%;
+background:white;
+color:#ff7a00;
+display:flex;
+align-items:center;
+justify-content:center;
+margin:auto;
+font-size:20px;
+}
+
