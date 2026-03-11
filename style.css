@@ -131,3 +131,42 @@ nav{
     color: white;
     line-height: 1.6;
 }
+section{
+padding:80px 10%;
+text-align:center;
+}
+
+.subtitle{
+color:#777;
+margin-bottom:40px;
+}
+
+.steps{
+background:#fff;
+}
+
+.step{
+display:flex;
+gap:20px;
+align-items:flex-start;
+margin:30px auto;
+max-width:700px;
+text-align:left;
+}
+.steps h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.circle{
+width:80px;
+height:40px;
+border-radius:50%;
+background:rgb(253, 240, 240);
+color:#ff7a00;
+display:flex;
+align-items:center;
+justify-content:center;
+font-weight:bold;
+}
+
