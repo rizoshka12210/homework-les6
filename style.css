@@ -102,3 +102,32 @@ nav{
 .work h1{
     font-size: 60px
 }
+
+.new{
+    background-image: url(./photo/rty.png);
+    min-height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1200px;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    opacity: 1.6;
+}
+.new h6{
+    color: #219EBC;
+}
+.new h1{
+    color: white;
+    font-size: 40px;
+}
+.new h4{
+    color: white;
+    line-height: 1.6;
+}
