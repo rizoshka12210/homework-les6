@@ -214,3 +214,36 @@ margin:auto;
 font-size:20px;
 }
 
+.portfolio{
+background:#fff;
+}
+.portfolio h1{
+    font-size: 40px;
+    margin: 20px;
+}
+
+.portfolio-grid{
+display:flex;
+gap:60px;
+margin-top:40px;
+flex-wrap: wrap;
+}
+.portfolio-grid1{
+display:flex;
+gap:30px;
+margin-top:40px;
+flex-wrap: wrap;
+}
+
+.card{
+position:relative;
+border-radius:10px;
+}
+
+.card img{
+width:100%;
+height:380px;
+}
+
+
+
